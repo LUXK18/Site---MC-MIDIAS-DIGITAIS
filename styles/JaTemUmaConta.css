@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: rgb(14, 14, 14);
+    background-repeat: no-repeat;
+    color: rgb(42, 42, 42);
+    font-family: 'Roboto', sans-serif;
+    max-width: 200vh;
+    max-height: 200vh;
+    margin: 1%;
+    padding: 1.5%;
+    user-select: none;
+}
+
+
+/* BOX HEADER */
+.box {
+    position: static;
+    background: orange;
+    padding-top: 0.2vh;
+    top: 0vh;
+    bottom: 190px;
+    display: flex;
+    margin-top: 10;
+    border-radius: 10px;
+}
+#title{
+    flex-direction: column;
+    line-height: 5px;
+}
+header{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(14, 14, 14));    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/*  LETRAS  */
+h1{
+    font-weight: 500;
+}
+h2{
+    margin-top: 8%;
+    color: rgb(255, 255, 255);
+    font-size: 67px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 5px;
+}
+p{
+    color: rgb(197, 197, 197);
+    line-height: 50px;
+    max-width: 500px;
+    line-height: 20px;
+}
+
+
+/* BOTÕES DO MENU */
+li{
+    display: inline-block;
+    margin: 10px;
+}
+#a_select{
+    color: rgb(255, 193, 59);
+}
+#a_notselect{
+    color: white;
+}
+#a_notselect:hover{
+    color: rgb(255, 193, 59);
+    transition: 1s all;
+}
+
+
+
+
+/* MAIN FORMS */
+.login{
+    position: relative;
+    background-color: rgba(31, 31, 31, 0.247);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 65rem;
+    height: 38rem;
+    margin-left: 0rem;
+    margin-right: auto;
+    display: flex;
+    border-radius: 20px;
+    margin-top: 5rem;
+    justify-content: space-around;
+}
+#fazer_login{
+    position:absolute;
+    right: 5rem;
+    width: 20rem;
+    height: 25rem;
+    padding: 2rem 2rem 0rem 2rem;
+    margin-top: 20px;
+    border-radius: 10px; 
+}
+#fazer_cadastro {
+    position:absolute;
+    left: 3rem;
+    width: 20rem;
+    height: 25rem;
+    padding: 2rem 2rem 0rem 2rem;
+    margin-top: 20px;
+    border-radius: 10px; 
+}
+
+/* CAMPOS */
+.campo2{
+    position: relative;
+    margin-top: 181px;
+}
+.divisao{
+    position: absolute;
+    background-color: #1f1f1f;
+    width: 2px;
+    border-radius: 20px;
+    height: 38rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/* DENTRO DOS CAMPOS */
+.mater_conectado{
+    position: relative;
+    left: 75px;
+    margin-top: 10px;
+    display: flex;
+}
+#cbx_marter{
+    height: 20px;
+    width: 20px;
+}
+
+
+
+
+/* TEXTOS */
+
+#titulo_header{
+    font-size: 32px;
+}
+
+#h1_logar{
+    position: absolute;
+    bottom: 225px;
+    font-size: 60px;
+}
+h1{
+    font-size: 3rem;
+    color: white;
+}
+label{
+    color: rgb(139, 139, 139);
+}
+#lb_box {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+
+/* BOTOES */
+.btn_login{
+    position: relative;
+    height: 20px;
+    width: 20px;
+}
+#bt_login{
+    position: absolute;
+    border: none;
+    top: 10px;
+    left: 35px;
+    width: 300px;
+    height: 20px;
+    font-size: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #505050;
+    transition: 0.2s;
+}
+#bt_login:focus,
+#bt_login:hover{
+    background-color: orange;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: none;
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn_cadastrar{
+    position: relative;
+}
+#bt_cadastrar{
+    position: absolute;
+    border: none;
+    width: 300px;
+    height: 20px;
+    font-size: 0px;
+    border-radius: 10px;
+    left: 30px;
+    cursor: pointer;
+    background-color: #505050;
+    transition: 0.2s;
+}
+#bt_cadastrar:focus,
+#bt_cadastrar:hover{
+    position: absolute;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: none;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 10px;
+    left: 30px;
+    background-color: orange;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* INPUTS */
+#inp_c1,
+#inp_c2,
+#inp_c3,
+#inp_c4,
+#inp_c5{
+    outline: none;
+    width: 20rem;
+    height: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    border-color: orange;
+    border-style:double;
+    background-color: rgba(31, 31, 31, 0.247);
+    font-size: 20px;
+    color: white;
+    
+}
+
+
+/* IMAGEM */
+#logomc{
+    position: absolute;
+    top: 11.3rem;
+    left: 68rem;
+    height: 780px;
+}
+
+main{
+    display: flex;
+}
+

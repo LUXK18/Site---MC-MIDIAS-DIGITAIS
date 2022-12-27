@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: rgb(14, 14, 14);
+    background-repeat: no-repeat;
+    color: rgb(42, 42, 42);
+    font-family: 'Roboto', sans-serif;
+    max-width: 200vh;
+    max-height: 200vh;
+    margin: 1%;
+    padding: 1.5%;
+    user-select: none;
+}
+
+
+/* BOX HEADER */
+.box {
+    position: static;
+    background: orange;
+    padding-top: 0.2vh;
+    top: 0vh;
+    bottom: 190px;
+    display: flex;
+    margin-top: 10;
+    border-radius: 10px;
+}
+#title{
+    flex-direction: column;
+    line-height: 5px;
+}
+header{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(14, 14, 14));    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/*  LETRAS  */
+h1{
+    font-weight: 500;
+}
+h3{
+    position: absolute;
+    top: 33.5rem;
+    left: 18rem;
+    text-align: center;
+    font-weight: 300;
+}
+p{
+    color: rgb(105, 105, 105);
+    line-height: 50px;
+    max-width: 500px;
+    line-height: 20px;
+    margin: 10px;
+}
+
+
+/* BOTÕES DO MENU */
+li{
+    display: inline-block;
+    margin: 10px;
+}
+#a_select{
+    color: rgb(255, 193, 59);
+}
+#a_notselect{
+    color: white;
+}
+#a_notselect:hover{
+    color: rgb(255, 193, 59);
+    transition: 1s all;
+}
+
+
+/* CONTAINER */
+
+.container{
+    position: relative;
+    background-color: white;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 5px, rgba(255, 255, 255, 0.3) 0px 10px, rgba(255, 255, 255, 0.2) 0px 15px, rgba(255, 255, 255, 0.1) 0px 20px, rgba(255, 255, 255, 0.05) 0px 25px, rgba(255, 255, 255, 0.281) 0px 7px 100px 0px;
+    width: 80rem;
+    height: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    border-radius: 20px;
+}
+
+.boxs{
+    position: absolute;
+    display: flex;
+    justify-content:space-evenly;
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.box1,
+.box2,
+.box3{
+    position: relative;
+    background-color: rgb(197, 197, 197);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 10px;
+    width: 20rem;
+    bottom: 0rem;
+    height: 30rem;
+    transition: 1s;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover{
+    position: relative;
+    background-color: rgb(197, 197, 197);
+    box-shadow: rgba(255, 255, 255, 0.377) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px;
+    border-radius: 10px;
+    bottom: 1rem;
+    width: 20rem;
+    height: 30rem;
+    transition: 1s;
+}
+
+.textbox{
+    position: absolute;
+    background-color: rgb(230, 230, 230);
+    width: 18rem;
+    height: 15rem;
+    left: 1rem;
+    top: 14rem;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* ICONES */
+
+.icon{
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    left: 5rem;
+    top: 2rem;
+}
+
+img{
+    position: absolute;
+    top: rem;
+    left: 0.3rem;
+    max-width: 150px;
+}

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: rgb(14, 14, 14);
+    background-repeat: no-repeat;
+    color: rgb(42, 42, 42);
+    font-family: 'Roboto', sans-serif;
+    max-width: 200vh;
+    max-height: 200vh;
+    margin: 1%;
+    padding: 1.5%;
+    user-select: none;
+}
+
+
+/* BOX HEADER */
+.box {
+    position: static;
+    background: orange;
+    padding-top: 0.2vh;
+    top: 0vh;
+    bottom: 190px;
+    display: flex;
+    margin-top: 10;
+    border-radius: 10px;
+}
+#title{
+    flex-direction: column;
+    line-height: 5px;
+}
+header{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(14, 14, 14));    
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/*  LETRAS  */
+h1{
+    font-weight: 500;
+}
+#text_h1_1{
+    position: absolute;
+    color: white;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+    background-color: #2b2b2b;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    padding: 20px 340px 20px 20px;
+    border-radius: 10px;
+    transition: 1s; 
+}
+#text_h1_1:hover{
+    position: absolute;
+    color: white;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    background-color: #313131;
+    padding: 20px 340px 20px 20px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#text_h3_1{
+    position: absolute;
+    margin-top: 13rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    color: rgb(83, 83, 83);
+}
+#text_h3_2{
+    position: absolute;
+    margin-top: 22rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    color: rgb(83, 83, 83);
+}
+
+
+
+
+
+
+
+
+/* BOTÕES DO MENU */
+li{
+    display: inline-block;
+    margin: 10px;
+}
+#a_select{
+    color: rgb(255, 193, 59);
+}
+#a_notselect{
+    color: white;
+}
+#a_notselect:hover{
+    color: rgb(255, 193, 59);
+    transition: 1s all;
+}
+
+
+
+/* IMAGEM */
+
+img{
+    position: absolute;
+    max-width: 400px;
+    margin-top: 9rem;
+    margin-left: 7rem;
+    animation: flut_img 2s ease alternate infinite;
+}
+@keyframes flut_img {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(30px); 
+    }
+}
+
+
+/* CONTAINER */
+
+.container{
+    position: relative;
+    background-color: rgba(31, 31, 31, 0.247);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    width: 65rem;
+    height: 35rem;
+    margin-left: auto;
+    margin-right: 5rem;
+    margin-top: 6rem;
+}
+
+
+
